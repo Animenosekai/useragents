@@ -3,10 +3,10 @@
 ### A Python module which does one thing: giving you a random User-Agent Header
 ***Do not worry about sticking with a single user-agent for you HTTP requests ever again!***
 
-[![PyPI version](https://badge.fury.io/py/useragents.svg)](https://pypi.org/project/useragents/)
-[![PyPI - Downloads](https://img.shields.io/pypi/dm/useragents)](https://pypistats.org/packages/useragents)
-[![PyPI - Python Version](https://img.shields.io/pypi/pyversions/useragents)](https://pypi.org/project/useragents/)
-[![PyPI - Status](https://img.shields.io/pypi/status/useragents)](https://pypi.org/project/useragents/)
+[![PyPI version](https://badge.fury.io/py/pyuseragents.svg)](https://pypi.org/project/pyuseragents/)
+[![PyPI - Downloads](https://img.shields.io/pypi/dm/pyuseragents)](https://pypistats.org/packages/pyuseragents)
+[![PyPI - Python Version](https://img.shields.io/pypi/pyversions/pyuseragents)](https://pypi.org/project/pyuseragents/)
+[![PyPI - Status](https://img.shields.io/pypi/status/pyuseragents)](https://pypi.org/project/pyuseragents/)
 [![GitHub - License](https://img.shields.io/github/license/Animenosekai/useragents)](https://github.com/Animenosekai/useragents/blob/master/LICENSE)
 [![GitHub Top language](https://img.shields.io/github/languages/top/Animenosekai/useragents)](https://github.com/Animenosekai/useragents)
 [![CodeQL Checks Badge](https://github.com/Animenosekai/useragents/workflows/CodeQL%20Python%20Analysis/badge.svg)](https://github.com/Animenosekai/useragents/actions?query=workflow%3ACodeQL)
