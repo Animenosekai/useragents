@@ -24,9 +24,9 @@ These instructions will get you a copy of the project up and running on your loc
 
 You will need to have Python installed on your computer to use this software
 
-According to Vermin, Python 3.0 or higher is needed to use `useragents` even if it does work on Python 2.
+According to Vermin, Python 3.0 or higher is needed to use `pyuseragents` even if it does work on Python 2.
 
-Always check if your Python version works with `useragents` before using it in production
+Always check if your Python version works with `pyuseragents` before using it in production
 
 *Tested manually on `Python 2.7` and `Python 3.9`*
 
@@ -37,34 +37,34 @@ Always check if your Python version works with `useragents` before using it in p
 You can install it from PyPI with:
 
 ```bash
-pip install useragents
+pip install pyuseragents
 ```
 
 You can check if you successfully installed it by printing out its version:
 
 ```bash
-python -c "import useragents; print(useragents.__version__)"
+python -c "import pyuseragents; print(pyuseragents.__version__)"
 # output:
-useragents v1.0
+pyuseragents v1.0
 ```
 
 ## List of User-Agents
 
 The list of User-Agents headers has been crawled from various sources.
 
-They are all available in the `useragents/data/list.py` file.
+They are all available in the `pyuseragents/data/list.py` file.
 
 > The list being in a python module means that it will be preloaded by Python in memory for performance reasons.
 
 ## Usage
 ```python
->>> import useragents
+>>> import pyuseragents
 >>> headers = {
-    "User-Agent": useragents.random(),
+    "User-Agent": pyuseragents.random(),
     "Content-Type": "application/json",
     "and so on..."
 }
->>> useragents.random()
+>>> pyuseragents.random()
 "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.113 Safari/537.36"
 ```
 
