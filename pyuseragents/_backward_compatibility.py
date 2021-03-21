@@ -5,7 +5,7 @@ Anime no Sekai 2021
 """
 
 from random import randint
-from pyuseragents.data.list import USER_AGENTS
+from .data.list import USER_AGENTS
 
 def random():
     """
