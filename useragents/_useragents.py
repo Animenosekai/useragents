@@ -9,8 +9,7 @@ from useragents.data.list import USER_AGENTS
 
 def random() -> str:
     """
-    Returns a new random User-Agent Header value
-    
+    Returns a new random User-Agent Header value    
     Args:
         None
     Returns:

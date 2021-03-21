@@ -28,7 +28,9 @@ According to Vermin, Python 3.0 or higher is needed to use `useragents` even if 
 
 Always check if your Python version works with `useragents` before using it in production
 
-*Tested on `Python 2.7` and `Python 3.9`*
+*Tested manually on `Python 2.7` and `Python 3.9`*
+
+*Tested automatically (CI) with Pytest on `Python 2.7`, `Python 3.0` and `Python 3.9`*
 
 ### Installing
 
