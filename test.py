@@ -1,5 +1,5 @@
-import useragents
+import pyuseragents
 
 def test_random():
     print("[test] --> Testing Random")
-    assert isinstance(useragents.random(), str)
+    assert isinstance(pyuseragents.random(), str)
