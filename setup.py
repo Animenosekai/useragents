@@ -3,11 +3,11 @@ from os import path
 with open(path.join(path.abspath(path.dirname(__file__)), 'README.md'), encoding='utf-8') as f:
     readme_description = f.read()
 setup(
-    name = "useragents",
+    name = "pyuseragents",
     packages = ["useragents"],
     version = "1.0",
     license = "MIT",
-    description = "Translate, transliterate, get the language of texts in no time with the help of multiple APIs!",
+    description = "A Python module which does one thing: giving you a random User-Agent Header",
     author = "Anime no Sekai",
     author_email = "niichannomail@gmail.com",
     url = "https://github.com/Animenosekai/useragents",
