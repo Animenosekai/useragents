@@ -25,20 +25,20 @@ These instructions will get you a copy of the project up and running on your loc
 
 You will need to have Python installed on your computer to use this software
 
-According to Vermin, Python 3.0 or higher is needed to use `pyuseragents` even if it does work on Python 2.
+According to Vermin, Python 3.0 or higher is needed to use `pyuseragents` even if it **does work** on Python 2.
 
 Always check if your Python version works with `pyuseragents` before using it in production
 
-*Tested manually on `Python 2.7` and `Python 3.9`*
+*Tested manually on `Python 2.7` and `Python 3.9` and `Python 3.12.2`*
 
-*Tested automatically (CI) with Pytest on `Python 2.7`, `Python 3.0` and `Python 3.9`*
+*Tested automatically (CI) with Pytest on CPython `3.7.17`, `3.8.18`, `3.9.19`, `3.10.14`, `3.11.9`, `3.12.3`, `3.13.0-beta.1`, on PyPy `3.9` and on GraalPy `24.0`*
 
 ### Installing
 
 You can install it from PyPI with:
 
 ```bash
-pip install pyuseragents
+pip install --upgrade pyuseragents
 ```
 
 You can check if you successfully installed it by printing out its version:
@@ -46,7 +46,7 @@ You can check if you successfully installed it by printing out its version:
 ```bash
 python -c "import pyuseragents; print(pyuseragents.__version__)"
 # output:
-pyuseragents v1.0
+pyuseragents v1.0.5
 ```
 
 ## List of User-Agents
