@@ -2,4 +2,7 @@ import pyuseragents
 
 def test_random():
     print("[test] --> Testing Random")
-    assert isinstance(pyuseragents.random(), str)
+    for _ in range(1000):
+        current = pyuseragents.random()
+        assert isinstance(current, str)
+        assert isinstance(current.strip().replace(" ", "") != "")
