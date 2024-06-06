@@ -5,4 +5,4 @@ def test_random():
     for _ in range(1000):
         current = pyuseragents.random()
         assert isinstance(current, str)
-        assert isinstance(current.strip().replace(" ", "") != "")
+        assert current.strip().replace(" ", "") != ""
