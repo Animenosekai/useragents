@@ -26,4 +26,4 @@ jobs:
         if [ -f requirements.txt ]; then pip install -r requirements.txt; fi
     - name: Test with pytest
       run: |
-        pytest --durations=0 --verbosity=5 -r A --showlocals --ful-trace test.py
+        pytest --durations=0 --verbosity=5 -r A --showlocals --full-trace test.py
