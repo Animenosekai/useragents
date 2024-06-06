@@ -4,7 +4,8 @@
 ***Do not worry about sticking with a single user-agent for you HTTP requests ever again!***
 
 [![PyPI version](https://badge.fury.io/py/pyuseragents.svg)](https://pypi.org/project/pyuseragents/)
-[![PyPI - Downloads](https://img.shields.io/pypi/dm/pyuseragents)](https://pypistats.org/packages/pyuseragents)
+[![PyPI — Total Downloads](https://static.pepy.tech/badge/pyuseragents)](https://pepy.tech/project/pyuseragents)
+[![PyPI - Monthly Downloads](https://img.shields.io/pypi/dm/pyuseragents)](https://pypistats.org/packages/pyuseragents)
 [![PyPI - Python Version](https://img.shields.io/pypi/pyversions/pyuseragents)](https://pypi.org/project/pyuseragents/)
 [![PyPI - Status](https://img.shields.io/pypi/status/pyuseragents)](https://pypi.org/project/pyuseragents/)
 [![GitHub - License](https://img.shields.io/github/license/Animenosekai/useragents)](https://github.com/Animenosekai/useragents/blob/master/LICENSE)
